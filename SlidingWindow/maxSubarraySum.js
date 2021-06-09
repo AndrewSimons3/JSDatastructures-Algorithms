@@ -20,7 +20,7 @@ function maxSubarraySum(arr, num) {
 
 
 //SLIDING WINDOW APPROACH
-function maxSubarraySym(arr, num) {
+function maxSubarraySum(arr, num) {
   let maxSum = 0;
   let tempSum = 0;
   if (arr.length < num) return null;
